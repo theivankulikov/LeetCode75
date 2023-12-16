@@ -11,4 +11,4 @@ class Solution:
     
 
 def test_Solution():
-    assert Solution().kidsWithCandies([2,3,5,1,3], 3) == [true,false,false,false,false]
+    assert Solution().kidsWithCandies([2,3,5,1,3], 3) == [True,False,False,False,False]

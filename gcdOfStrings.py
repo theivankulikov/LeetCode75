@@ -1,4 +1,6 @@
-import pytest
+"""
+https://leetcode.com/problems/greatest-common-divisor-of-strings/
+"""
 
 class gcdOfStringsSolution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
