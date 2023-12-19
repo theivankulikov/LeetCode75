@@ -7,8 +7,9 @@ from typing import List
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         result = list()
+        maxCandies = max(candies)
         for i in range(len(candies)):
-            if max(candies) <= candies[i] + extraCandies:
+            if maxCandies <= candies[i] + extraCandies:
                 result.append(True)
             else:
                 result.append(False)
